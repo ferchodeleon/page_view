@@ -1,9 +1,12 @@
+import { Header } from "./header";
+import "../styles/index.css";
+
 const Main = () => {
-    return (
-        <>
-            <h1>NxtWave</h1>
-        </>
-    );
-}
+  return (
+    <>
+      <Header />
+    </>
+  );
+};
 
 export default Main;
