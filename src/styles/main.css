@@ -1,0 +1,26 @@
+:root {
+    --nxt-red: #DD2D1E;
+    --nxt-blue: #003F82;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    /* background: linear-gradient(170deg, rgba(6, 6, 6, 1) 0%, rgba(88, 21, 15, 1) 92%, rgba(221, 45, 30, 1) 100%) no-repeat; */
+    height: 100vh;
+}
+
+.counter {
+    text-align: center;
+}

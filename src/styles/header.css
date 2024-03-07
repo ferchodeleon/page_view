@@ -1,0 +1,80 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 0;
+  background: linear-gradient(90deg, rgba(221, 45, 30, 1) 0%, rgba(187, 48, 45, 1) 32%, rgba(0, 63, 130, 1) 100%) no-repeat;
+}
+
+header figure img {
+  width: 150px;
+  max-width: 150px;
+}
+
+.title {
+  font-size: 5rem;
+  padding: 2rem;
+}
+
+header .nav-menu ol {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .nav-menu ol li {
+  list-style: none;
+  color: var(--white);
+  font-size: 2.4rem;
+  font-weight: 600;
+  padding: 10px;
+  margin: 0 5px;
+  position: relative;
+}
+
+header .nav-menu ol li::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  color: transparent;
+}
+
+header .nav-menu ol li:hover::before {
+  transform: scale(1);
+  transform-origin: bottom left;
+  color: transparent;
+}
+
+header .nav-menu ol li:hover {
+  transform: scale(1.05);
+  transition: transform 70ms, filter 70ms ease-in;
+}
+
+header .nav-menu ol li::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  inset: 0 0 0 0;
+  background-color: rgba(190, 197, 205, 0.2);
+  transition: transform .3s ease;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button-icon-shop {
+  border: 1px var(--white) solid;
+  border-radius: 15px;
+  padding: 5px 40px;
+  transition: transform 1s, filter 1s ease-in;
+}
+
+.button-icon-shop::before {
+  background-color: #DD2D1E;
+}
+
+.button-icon-shop:hover {
+  transition: transform 1s, filter 1s ease-in;
+  transform: scale(1.2);
+}
+
+.icon-shop {
+  width: 5rem;
+}
