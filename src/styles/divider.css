@@ -1,0 +1,10 @@
+.container_divider {
+  max-height: 500px;
+  padding: 16px 0;
+}
+
+.container_divider h2 {
+  text-align: center;
+  color: var(--black);
+  font-size: 3.6rem;
+}
