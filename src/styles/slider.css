@@ -1,7 +1,7 @@
 .slider1 {
   width: 100%;
-  max-height: 80vh;
-  height: 80vh;
+  max-height: 70vh;
+  height: 70vh;
   background-image: url('../assets/gif/we-are-the-revolution.gif');
   background-size: cover;
   display: flex;
