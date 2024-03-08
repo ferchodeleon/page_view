@@ -1,5 +1,50 @@
 .slider1 {
   width: 100%;
-  max-height: 500px;
+  height: 500px;
+  background-image: url('../assets/gif/we-are-the-revolution.gif');
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.slider1 p {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, .3);
+  border-radius: 25px;
+  color: var(--nxt-red);
+  font-size: 5rem;
+  text-align: center;
+}
+
+/* Efecto texto parpadea */
+
+.slider1 p {
+  animation-name: parpadeo;
+  animation-duration: .1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: steps(5, end);
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
