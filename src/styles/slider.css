@@ -8,24 +8,22 @@
   align-items: center;
 }
 
-.slider1 p {
-  padding: 20px;
-  background-color: rgba(0, 0, 0, .3);
+.slider1 img {
+  width: 100px;
   border-radius: 25px;
-  color: var(--nxt-red);
-  font-size: 5rem;
-  text-align: center;
+  opacity: 0.3;
+  transform: rotate(10deg);
 }
 
 /* Efecto texto parpadea */
 
-.slider1 p {
+.slider1 img {
   animation-name: parpadeo;
   animation-duration: .1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   -webkit-animation-name: parpadeo;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 2.5s;
   -webkit-animation-timing-function: steps(5, end);
   -webkit-animation-iteration-count: infinite;
 }

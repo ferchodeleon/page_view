@@ -1,8 +1,10 @@
+import flower_revolution from "../assets/img/flor.png";
+
 const Slider = () => {
   return (
     <>
       <div className="slider1">
-        <p>we are the revolution</p>
+        <img src={flower_revolution} alt="flower-revolution" />
       </div>
     </>
   );
