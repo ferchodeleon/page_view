@@ -1,14 +1,15 @@
 import Header from "./Header";
 import Slider from "./Slider";
 import { History } from "./History";
+import { Divider } from "./Divider";
 
 import { BrowserRouter } from "react-router-dom";
-import { CounterDown } from "./CounterDown";
 
 import "../styles/main.css";
 import "../styles/header.css";
 import "../styles/slider.css";
 import "../styles/history.css";
+import "../styles/divider.css";
 
 const Main = () => {
   return (
@@ -16,7 +17,7 @@ const Main = () => {
       <Header />
       <Slider />
       <History />
-      <CounterDown />
+      <Divider title="¡Sigue nuestra música!" />
     </BrowserRouter>
   );
 };
