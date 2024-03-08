@@ -63,7 +63,7 @@ header .nav-menu ol li::before {
   border: 1px var(--white) solid;
   border-radius: 15px;
   padding: 5px 40px;
-  transition: transform 1s, filter 1s ease-in;
+  transition: transform 1s, filter 1s ease-out;
 }
 
 .button-icon-shop::before {
@@ -71,7 +71,7 @@ header .nav-menu ol li::before {
 }
 
 .button-icon-shop:hover {
-  transition: transform 1s, filter 1s ease-in;
+  transition: transform 700ms, filter 100ms ease-in;
   transform: scale(1.2);
 }
 
