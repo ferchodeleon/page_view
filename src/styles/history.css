@@ -1,0 +1,78 @@
+
+.history-section > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  max-width: 70%;
+}
+
+.history-section {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(92, 51, 51, 1) 0%, rgba(62, 48, 48, 1) 42%, rgba(128, 13, 10, 1) 100%, rgba(47, 47, 47, 1) 100%);
+}
+
+.container-history-text {
+  margin: 0 auto;
+  padding: 0 3rem;
+  width: 50%;
+}
+
+.history-text {
+  padding: 20px 0;
+  font-size: 2.7rem;
+  color: var(--white);
+}
+
+.history-socialmedia {
+  width: 50%;
+}
+
+.history-socialmedia h2 {
+  text-align: center;
+  color: var(--white);
+  font-size: 6rem;
+}
+
+.social-media {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  padding-top: calc(100% - 80%);
+}
+
+.social-media .social-icons {
+  padding: 10px;
+}
+
+.social-icons {
+  text-align: center;
+  transition: transform 700ms, filter 100ms ease-in-out;
+  transform: scale(1);
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
+.social-icons a img {
+  text-align: center;
+  max-width: 120px;
+}
+
+.x img {
+  width: 108px;
+}
+
+.social-icons:hover {
+  transition: transform 700ms, filter 100ms ease-in;
+  transform: scale(1.2);
+}
+
+.social-media .social-icons p {
+  color: var(--white);
+  text-align: center;
+  font-size: 4rem;
+}
