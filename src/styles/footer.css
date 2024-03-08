@@ -1,0 +1,23 @@
+.container_footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background-color: #1c1c25;
+  padding: 13px 0;
+  text-align: center;
+  box-shadow: 0 3px 10px #fff;
+}
+
+.container_footer img {
+  margin: 0 10px;
+  border: 1px #FFF solid;
+  border-radius: 50%;
+  width: 40px;
+  padding: 8px;
+  overflow: visible;
+}
+
+.container_footer img:hover {
+  background-color: #A20B07;
+  transition: transform 1s linear;
+}
