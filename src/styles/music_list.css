@@ -1,0 +1,23 @@
+.container-video {
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 0;
+  background-image: url('../assets/img/banda.jpg');
+  background-size: cover;
+}
+
+.container-video iframe {
+  border-radius: 20px;
+}
+
+.container-video h2 {
+  font-size: 4.8rem;
+  margin: 0 auto;
+  width: fit-content;
+  margin-top: 40px;
+  padding: 20px;
+  color: #FFF;
+  border: 5px #FFF double;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
