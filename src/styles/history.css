@@ -76,3 +76,57 @@
   text-align: center;
   font-size: 4rem;
 }
+
+@media screen and (max-width: 890px) {
+
+  .history-section div:first-child {
+    display: block;
+    text-align: center;
+  }
+
+  .container-history-text {
+    width: auto;
+  }
+
+  .history-socialmedia {
+    width: fit-content;
+  }
+
+  .history-socialmedia, .social-media {
+    padding-top: 30px;
+  }
+
+  .social-media {
+    padding-top: 30px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .history-section div:first-child {
+    width: auto;
+    padding: 0;
+  }
+
+  .history-socialmedia {
+    display: inline-block;
+    width: fit-content;
+  }
+
+  .history-socialmedia h2 {
+    font-size: 4.3rem;
+  }
+
+  .social-media {
+    display: block;
+  }
+
+  .social-icons a img {
+    max-width: 80px;
+  }
+
+  .social-media .social-icons p {
+    font-size: 3rem;
+  }
+}

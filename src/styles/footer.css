@@ -19,5 +19,5 @@
 
 .container_footer img:hover {
   background-color: #A20B07;
-  transition: transform 1s linear;
+  transition: transform 1s, filter 1s linear;
 }

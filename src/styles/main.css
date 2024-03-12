@@ -5,6 +5,11 @@
     --black: #000000;
 }
 
+#root {
+    position: relative;
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,10 +22,11 @@ html {
 }
 
 body {
-    /* background: linear-gradient(170deg, rgba(6, 6, 6, 1) 0%, rgba(88, 21, 15, 1) 92%, rgba(221, 45, 30, 1) 100%) no-repeat; */
-    height: 100vh;
+    position: relative;
 }
 
 .counter {
     text-align: center;
 }
+
+
