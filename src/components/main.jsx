@@ -23,6 +23,7 @@ const Main = () => {
       <History />
       <Divider title="¡Sigue nuestra música!" />
       <MusicList />
+      <Divider title="Escuchanos" />
       <Footer />
     </BrowserRouter>
   );
