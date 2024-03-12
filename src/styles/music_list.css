@@ -8,6 +8,8 @@
 
 .container-video iframe {
   border-radius: 20px;
+  width: 660px;
+  height: 415px;
 }
 
 .container-video h2 {
@@ -20,4 +22,11 @@
   border: 5px #FFF double;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
+}
+
+@media screen and (max-width: 700px) {
+  .container-video iframe {
+    width: 90%;
+    height: 315px;
+  }
 }
