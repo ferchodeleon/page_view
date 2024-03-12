@@ -3,8 +3,6 @@ export const MusicList = () => {
     <>
       <div className="container-video">
         <iframe
-          width="660"
-          height="415"
           src="https://www.youtube.com/embed/aW3u2ot3sss?si=N__Z9ObEcxNwbTvm"
           title="YouTube video player"
           frameborder="0"
