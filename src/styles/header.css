@@ -7,7 +7,7 @@ header {
 }
 
 header figure img {
-  width: 150px;
+  width: 9rem;
   max-width: 150px;
 }
 
@@ -62,8 +62,9 @@ header .nav-menu ol li::before {
 .button-icon-shop {
   border: 1px var(--white) solid;
   border-radius: 15px;
-  padding: 5px 40px;
+  padding: 5px 30px;
   transition: transform 1s, filter 1s ease-out;
+  margin-left: 4rem;
 }
 
 .button-icon-shop::before {
@@ -76,5 +77,11 @@ header .nav-menu ol li::before {
 }
 
 .icon-shop {
-  width: 5rem;
+  width: 3.5rem;
+}
+
+@media screen and (max-width: 890px) {
+  .nav-menu {
+    display: none;
+  }
 }

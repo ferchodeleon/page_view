@@ -17,11 +17,11 @@ const Header = () => {
             <li>Historia</li>
             <li>Videos</li>
             <li>Shop</li>
+            <Link className="button-icon-shop" to="">
+              <img className="icon-shop" src={icon_shop} alt="shop" />
+            </Link>
           </ol>
         </nav>
-        <Link className="button-icon-shop" to="">
-          <img className="icon-shop" src={icon_shop} alt="shop" />
-        </Link>
       </header>
     </>
   );
