@@ -1,9 +1,20 @@
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  translate: 0 -70px;
+  transition: 0.3s;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: .5rem 0;
   background: linear-gradient(90deg, rgba(221, 45, 30, 1) 0%, rgba(187, 48, 45, 1) 32%, rgba(0, 63, 130, 1) 100%) no-repeat;
+}
+
+header.visible {
+  top: 0;
+  translate: 0;
 }
 
 header figure img {

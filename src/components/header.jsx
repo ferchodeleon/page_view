@@ -1,12 +1,33 @@
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 import logo from "../assets/logo/logo-nxtwave-transparent.png";
 import icon_shop from "../assets/icons/shop.gif";
 
 const Header = () => {
+  const [visible, setVisible] = useState(true);
+  const [lastScrollTop, setLastScrollTop] = useState(0);
+
+  const handleScroll = () => {
+    const { scrollY } = window;
+    console.log(scrollY);
+    if (scrollY > lastScrollTop) {
+      setVisible(false);
+    } else {
+      setVisible(true);
+    }
+
+    setLastScrollTop(scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
+
   return (
     <>
-      <header>
+      <header className={`active ${visible && "visible"}`}>
         <figure>
           <img src={logo} alt="logo_nxtwave" />
         </figure>
