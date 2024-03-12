@@ -13,6 +13,7 @@ import "../styles/slider.css";
 import "../styles/history.css";
 import "../styles/divider.css";
 import "../styles/footer.css";
+import "../styles/music_list.css";
 
 const Main = () => {
   return (
