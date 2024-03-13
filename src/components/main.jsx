@@ -15,6 +15,17 @@ import "../styles/divider.css";
 import "../styles/footer.css";
 import "../styles/music_list.css";
 
+const videos = [
+  {
+    title: "we are the revolution",
+    src: "https://www.youtube.com/embed/aW3u2ot3sss?si=N__Z9ObEcxNwbTvm",
+    titleVideo: "YouTube video player",
+    frameborder: "0",
+    allow:
+      "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+  },
+];
+
 const Main = () => {
   return (
     <BrowserRouter>
@@ -22,7 +33,7 @@ const Main = () => {
       <Slider />
       <History />
       <Divider title="¡Sigue nuestra música!" />
-      <MusicList />
+      <MusicList videosYoutube={videos} />
       <Divider title="Escuchanos" />
       <Footer />
     </BrowserRouter>
