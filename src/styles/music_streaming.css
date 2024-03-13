@@ -1,0 +1,108 @@
+.inika-regular {
+  font-family: "Inika", serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.container-music-stream {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+
+.container-music-stream .listen {
+  grid-column-start: 2;
+  padding: 7rem;
+  background: linear-gradient(0deg, rgba(0, 63, 130, 1) 0%, rgba(221, 45, 30, 1) 100%);
+}
+
+.container-music-stream .listen img {
+  display: block;
+  padding-top: 30px;
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+.container-music-stream .listen p {
+  color: var(--white);
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.container-music-stream .listen-platforms {
+  text-align: center;
+}
+
+.container-music-stream .listen-platforms p {
+  display: inline-block;
+  color: #000;
+  background: #FFF;
+  mix-blend-mode: multiply;
+  position: relative;
+  font-family: 'Inika';
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  text-align: center;
+  padding: 30px 0;
+  text-shadow:  1px 1px 2px;
+}
+
+.container-music-stream .listen-platforms p:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(100deg, rgba(221, 45, 30, 1) 0%, rgba(92, 56, 89, 1) 46%, rgba(0, 63, 130, 1) 100%);
+  mix-blend-mode: screen;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container-music-stream .platforms {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 2000px) {
+  .container-music-stream {
+    grid-template-columns: 20% 30% 30% 20%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .container-music-stream {
+    padding: 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container-music-stream .listen {
+    grid-column-start: 1;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container-music-stream .listen p {
+    max-width: 100%;
+  }
+
+  .container-music-stream {
+    display: block;
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container-music-stream .listen-platforms .platforms img {
+    height: 8rem;
+  }
+}
