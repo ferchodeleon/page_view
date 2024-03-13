@@ -10,7 +10,6 @@ const Header = () => {
 
   const handleScroll = () => {
     const { scrollY } = window;
-    console.log(scrollY);
     if (scrollY > lastScrollTop) {
       setVisible(false);
     } else {
