@@ -1,16 +1,26 @@
-export const MusicList = () => {
+import { useState } from "react";
+
+export const MusicList = ({ videosYoutube }) => {
+  const [videos] = useState(videosYoutube);
+  const keyObj = Object.values(videos);
+  const ListVideos = keyObj.map((video) => (
+    <div>
+      <iframe
+        src={video.src}
+        title={video.titleVideo}
+        frameborder={video.frameborder}
+        allow={video.allow}
+        allowFullScreen
+      />
+      <h2>{video.title}</h2>
+    </div>
+  ));
+  console.log(ListVideos.length);
   return (
-    <>
-      <div className="container-video">
-        <iframe
-          src="https://www.youtube.com/embed/aW3u2ot3sss?si=N__Z9ObEcxNwbTvm"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        />
-        <h2>we are the revolution</h2>
-      </div>
-    </>
+    <div
+      className={`container-video ${ListVideos.length >= 2 && "grid-videos"}`}
+    >
+      {ListVideos}
+    </div>
   );
 };

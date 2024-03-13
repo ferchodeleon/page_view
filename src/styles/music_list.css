@@ -8,8 +8,10 @@
 
 .container-video iframe {
   border-radius: 20px;
-  width: 660px;
-  height: 415px;
+  max-width: 660px;
+  max-height: 415px;
+  width: 560px;
+  height: 315px;
 }
 
 .container-video h2 {
@@ -24,9 +26,22 @@
   border-bottom-right-radius: 25px;
 }
 
+.grid-videos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.grid-videos div {
+  padding-bottom: 4rem;
+}
+
 @media screen and (max-width: 700px) {
   .container-video iframe {
     width: 90%;
     height: 315px;
+  }
+  .grid-videos {
+    display: block;
   }
 }
