@@ -4,6 +4,7 @@ import { History } from "./History";
 import { Divider } from "./Divider";
 import { Footer } from "./Footer";
 import { MusicList } from "./MusicList";
+import { MusicStreaming } from "./MusicStreaming";
 
 import { BrowserRouter } from "react-router-dom";
 
@@ -14,6 +15,7 @@ import "../styles/history.css";
 import "../styles/divider.css";
 import "../styles/footer.css";
 import "../styles/music_list.css";
+import "../styles/music_streaming.css";
 
 const videos = [
   {
@@ -35,6 +37,7 @@ const Main = () => {
       <Divider title="¡Sigue nuestra música!" />
       <MusicList videosYoutube={videos} />
       <Divider title="Escuchanos" />
+      <MusicStreaming />
       <Footer />
     </BrowserRouter>
   );
