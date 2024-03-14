@@ -35,7 +35,6 @@ header .nav-menu ol {
 
 header .nav-menu ol li {
   list-style: none;
-  color: var(--white);
   font-size: 2.4rem;
   font-weight: 600;
   padding: 10px;
@@ -69,6 +68,11 @@ header .nav-menu ol li::before {
   transition: transform .3s ease;
   cursor: pointer;
   border-radius: 10px;
+}
+
+header .nav-menu ol a {
+  text-decoration: none;
+  color: var(--white);
 }
 
 .button-icon-shop {

@@ -16,7 +16,7 @@ export const History = ({ paragraphs }) => {
   const paragraphsToShow = showAll ? 1000 : 1;
 
   return (
-    <div className="history-section">
+    <div id="history" className="history-section">
       <div>
         <div className="container-history-text">
           <div>

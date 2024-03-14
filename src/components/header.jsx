@@ -41,14 +41,25 @@ const Header = () => {
           <nav style={{ display: open && "none" }} className="nav-menu">
             {/* <nav className={`${open ? "nav-menu-open" : "nav-menu"}`}> */}
             <ol>
-              <li>Home</li>
-              <li>Fotos</li>
-              <li>Historia</li>
-              <li>Videos</li>
-              <li>Shop</li>
+              <Link to="/">
+                <li>Home</li>
+              </Link>
+              <Link to="https://nxtwave.pixieset.com/nxtwave/" target="_blank">
+                <li>Fotos</li>
+              </Link>
+              <Link to="/history">
+                <li>Historia</li>
+              </Link>
+              <li>
+                <Link>Videos</Link>
+              </li>
+              <Link>
+                <li>Shop</li>
+              </Link>
               <Link
                 className="button-icon-shop"
                 to="https://developer.mozilla.org/es/docs/Web/CSS/box-shadow"
+                target="_blank"
               >
                 <img className="icon-shop" src={icon_shop} alt="shop" />
               </Link>
