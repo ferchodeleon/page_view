@@ -19,6 +19,16 @@
   width: 50%;
 }
 
+.showParagraphs {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  width: 100%;
+  font-size: 2.5rem;
+  color: #FFF;
+  text-decoration: underline;
+}
+
 .history-text {
   padding: 20px 0;
   font-size: 2.7rem;
@@ -40,7 +50,7 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   justify-items: center;
-  padding-top: calc(100% - 80%);
+  padding-top: calc(100% - 90%);
 }
 
 .social-media .social-icons {
@@ -59,7 +69,7 @@
 
 .social-icons a img {
   text-align: center;
-  max-width: 120px;
+  max-width: 100px;
 }
 
 .x img {
@@ -90,6 +100,7 @@
 
   .history-socialmedia {
     width: fit-content;
+    margin: 0 auto;
   }
 
   .history-socialmedia, .social-media {
@@ -128,5 +139,11 @@
 
   .social-media .social-icons p {
     font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .history-section div:first-child {
+    max-width: 100%;
   }
 }
