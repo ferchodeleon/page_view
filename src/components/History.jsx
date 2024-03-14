@@ -6,12 +6,14 @@ import x from "../assets/icons/twitter.svg";
 
 export const History = ({ paragraphs }) => {
   const [showAll, setShowAll] = useState(false);
+  const [paragraphHeight, setParagraphHeight] = useState("auto");
 
   const toggleShowAll = () => {
     setShowAll(!showAll);
+    setParagraphHeight(showAll ? "auto" : "Opx");
   };
 
-  const paragraphsToShow = showAll ? 1000 : 2;
+  const paragraphsToShow = showAll ? 1000 : 1;
 
   return (
     <div className="history-section">
@@ -19,7 +21,11 @@ export const History = ({ paragraphs }) => {
         <div className="container-history-text">
           <div>
             {paragraphs.slice(0, paragraphsToShow).map((pragraph, index) => (
-              <p key={index} className="history-text">
+              <p
+                key={index}
+                className="history-text"
+                style={{ maxHeight: paragraphHeight }}
+              >
                 {pragraph}
               </p>
             ))}
