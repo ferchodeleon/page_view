@@ -28,12 +28,21 @@ const videos = [
   },
 ];
 
+const paragraphs = [
+  "Somos la generación que hace la diferencia, nos revelamos ante el molde mediocre de este mundo, somos contracultura, no nos conformamos con las modas o ideologías del momento.",
+  "Somos una generación revolucionaria, y con nuestra frente en alto reconocemos sin temor ni vergüenza que Dios es real y que está vivo. Avanzamos firmes porque sabemos que con nuestras pisadas temblará la tierra y que con nuestra voz su presencia desciende.",
+  "Conocemos la verdadera causa por la cual debemos luchar, y unidos somos un ejército devastador e incansable que está listo para la victoria. Aquella que conquistamos con ojos cerrados y con rodillas sobre la tierra. Nuestras voces traen una nueva canción; aquella que revela la perfecta paz.",
+  "Si morimos por Cristo, también viviremos con él. Si soportamos los sufrimientos, compartiremos su reinado. Si decimos que no lo conocemos, también él dirá que no nos conoce. Y aunque no seamos fieles, él permanece fiel; porque jamás rompe su promesa.",
+  "Tú y yo, juntos, ¡SOMOS NXTWAVE",
+  "Tú y yo, juntos, ¡SOMOS LA REVOLUCIÓN!",
+];
+
 const Main = () => {
   return (
     <BrowserRouter>
       <Header />
       <Slider />
-      <History />
+      <History paragraphs={paragraphs} />
       <Divider title="¡Sigue nuestra música!" />
       <MusicList videosYoutube={videos} />
       <Divider title="Escuchanos" />
