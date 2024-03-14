@@ -73,6 +73,15 @@
   align-items: center;
 }
 
+.container-music-stream .platforms img {
+  max-width: 80px;
+}
+
+.container-music-stream .platforms .appleMusic {
+  padding: 20px 0;
+  max-width: 70px;
+}
+
 @media screen and (max-width: 2000px) {
   .container-music-stream {
     grid-template-columns: 20% 30% 30% 20%;
@@ -98,11 +107,5 @@
   .container-music-stream {
     display: block;
     margin-bottom: 5rem;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .container-music-stream .listen-platforms .platforms img {
-    height: 8rem;
   }
 }
