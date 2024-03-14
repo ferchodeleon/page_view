@@ -8,7 +8,7 @@ import menu from "../assets/icons/hamburger.svg";
 const Header = () => {
   const [visible, setVisible] = useState(true);
   const [lastScrollTop, setLastScrollTop] = useState(0);
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   const handleScroll = () => {
     const { scrollY } = window;
@@ -34,12 +34,13 @@ const Header = () => {
     console.log("OPEN", open),
     (
       <>
-        <header className={`active ${visible && "visible"}`}>
+        <header className={`$ active ${visible && "visible"}`}>
           <figure>
             <img src={logo} alt="logo_nxtwave" />
           </figure>
-          <nav style={{ display: open && "none" }} className="nav-menu">
-            {/* <nav className={`${open ? "nav-menu-open" : "nav-menu"}`}> */}
+          {/* <nav className="nav-menu"> */}
+          {/* <nav style={{ display: open && "none" }} className="nav-menu"> */}
+          <nav className={`${open ? "nav-menu-open" : "nav-menu"}`}>
             <ol>
               <Link to="/">
                 <li>Home</li>
@@ -50,11 +51,8 @@ const Header = () => {
               <Link to="/history">
                 <li>Historia</li>
               </Link>
-              <li>
-                <Link>Videos</Link>
-              </li>
               <Link>
-                <li>Shop</li>
+                <li>Videos</li>
               </Link>
               <Link
                 className="button-icon-shop"

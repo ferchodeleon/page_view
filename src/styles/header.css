@@ -97,6 +97,7 @@ header .nav-menu ol a {
 }
 
 .hamburger-menu {
+  display: none;
   border: none;
   background: none;
 }
@@ -107,13 +108,14 @@ header .nav-menu ol a {
 }
 
 @media screen and (max-width: 890px) {
-  header .nav-menu ol {
-    flex-direction: column;
-  }
 
   .nav-menu {
+    display: none;
+  }
+
+  .nav-menu-open {
     position: absolute;
-    top: 10vh;
+    top: 70px;
     right: 0%;
     width: 100%;
     text-align: center;
@@ -121,7 +123,22 @@ header .nav-menu ol a {
     transition: bottom 1s linear;
   }
 
-  .nav-menu ol li {
+    header .nav-menu-open ol {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    header .nav-menu-open ol li {
+      list-style: none;
+      font-size: 2.4rem;
+      font-weight: 600;
+      padding: 10px;
+      margin: 0 5px;
+      position: relative;
+    }
+
+  .nav-menu-open ol li {
     list-style: none;
     color: var(--white);
     font-size: 2.4rem;
@@ -130,8 +147,13 @@ header .nav-menu ol a {
     margin: 0 5px;
     position: relative;
   }
+  
+  .nav-menu-open ol a {
+    text-decoration: none;
+  }
+
   .hamburger-menu {
-    display: none;
+    display: block;
   }
   .button-icon-shop {
     margin: 0 auto;
