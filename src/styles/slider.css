@@ -3,7 +3,7 @@
   max-height: 80vh;
   min-height: 70vh;
   height: calc(100vh - 80px);
-  background-image: url('../assets/gif/we-are-the-revolution2.gif');
+  background-image: url('../assets/gif/we-are-the-revolution.gif');
   background-size: cover;
   display: flex;
   justify-content: center;
