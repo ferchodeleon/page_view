@@ -51,7 +51,7 @@ const Header = () => {
               <Link to="/history">
                 <li>Historia</li>
               </Link>
-              <Link>
+              <Link target="_blank" to="https://www.youtube.com/@NxtWaveBand">
                 <li>Videos</li>
               </Link>
               <Link
