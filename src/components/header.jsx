@@ -56,7 +56,7 @@ const Header = () => {
               </Link>
               <Link
                 className="button-icon-shop"
-                to="https://developer.mozilla.org/es/docs/Web/CSS/box-shadow"
+                to="https://coffeenjesus.com/en/search?q=nxtwave"
                 target="_blank"
               >
                 <img className="icon-shop" src={icon_shop} alt="shop" />
