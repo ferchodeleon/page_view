@@ -42,13 +42,13 @@ const Header = () => {
           {/* <nav style={{ display: open && "none" }} className="nav-menu"> */}
           <nav className={`${open ? "nav-menu-open" : "nav-menu"}`}>
             <ol>
-              <Link to="/">
+              <Link>
                 <li>Home</li>
               </Link>
               <Link to="https://nxtwave.pixieset.com/nxtwave/" target="_blank">
                 <li>Fotos</li>
               </Link>
-              <Link to="/history">
+              <Link>
                 <li>Historia</li>
               </Link>
               <Link target="_blank" to="https://www.youtube.com/@NxtWaveBand">
