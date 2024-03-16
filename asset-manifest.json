@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/page_view/static/css/main.a3f7830a.css",
-    "main.js": "/page_view/static/js/main.42b10182.js",
+    "main.js": "/page_view/static/js/main.2656d981.js",
     "static/media/we-are-the-revolution.gif": "/page_view/static/media/we-are-the-revolution.36efe3e531655baa5106.gif",
     "static/media/banda.jpg": "/page_view/static/media/banda.2a68097099bba497811c.jpg",
     "static/media/arrow.gif": "/page_view/static/media/arrow.a6a351044395fb73da3e.gif",
@@ -20,10 +20,10 @@
     "static/media/x.svg": "/page_view/static/media/x.0ea395355f7ad1923a7bceb3ef48892f.svg",
     "index.html": "/page_view/index.html",
     "main.a3f7830a.css.map": "/page_view/static/css/main.a3f7830a.css.map",
-    "main.42b10182.js.map": "/page_view/static/js/main.42b10182.js.map"
+    "main.2656d981.js.map": "/page_view/static/js/main.2656d981.js.map"
   },
   "entrypoints": [
     "static/css/main.a3f7830a.css",
-    "static/js/main.42b10182.js"
+    "static/js/main.2656d981.js"
   ]
 }
