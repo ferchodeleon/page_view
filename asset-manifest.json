@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/page_view/static/css/main.acc48b8d.css",
-    "main.js": "/page_view/static/js/main.bb639de1.js",
+    "main.css": "/page_view/static/css/main.0c656696.css",
+    "main.js": "/page_view/static/js/main.42b10182.js",
     "static/media/we-are-the-revolution.gif": "/page_view/static/media/we-are-the-revolution.36efe3e531655baa5106.gif",
     "static/media/banda.jpg": "/page_view/static/media/banda.2a68097099bba497811c.jpg",
     "static/media/arrow.gif": "/page_view/static/media/arrow.a6a351044395fb73da3e.gif",
@@ -13,19 +13,17 @@
     "static/media/flor.png": "/page_view/static/media/flor.d01d4825a4997ca6e39c.png",
     "static/media/deezer.svg": "/page_view/static/media/deezer.d5ca562eabd8f7602f7ceb8569865b95.svg",
     "static/media/tik-tok.svg": "/page_view/static/media/tik-tok.bffedce716220cccf16c12d2c70db123.svg",
-    "static/media/youtube.svg": "/page_view/static/media/youtube.023caa913b2520db2caa63b77eba7b1b.svg",
+    "static/media/youtube.svg": "/page_view/static/media/youtube.87f6024c0b33466f32058cd83430bf79.svg",
     "static/media/hamburger.svg": "/page_view/static/media/hamburger.b3f8b5a7049548bcd5f65881190f4b63.svg",
-    "static/media/facebook.svg": "/page_view/static/media/facebook.56152617e95ff3592f5119a95fe44f10.svg",
+    "static/media/facebook.svg": "/page_view/static/media/facebook.180aaa64d305a96ac898219add57bc88.svg",
     "static/media/instagram-500.svg": "/page_view/static/media/instagram-500.67d2bda302839b8f018291b35e481b63.svg",
     "static/media/x.svg": "/page_view/static/media/x.0ea395355f7ad1923a7bceb3ef48892f.svg",
-    "static/media/twitter.svg": "/page_view/static/media/twitter.91d7d5b096d2d23f813ca0f08608d219.svg",
-    "static/media/instagram.svg": "/page_view/static/media/instagram.40179ec76cd817fdbfa38f097156d088.svg",
     "index.html": "/page_view/index.html",
-    "main.acc48b8d.css.map": "/page_view/static/css/main.acc48b8d.css.map",
-    "main.bb639de1.js.map": "/page_view/static/js/main.bb639de1.js.map"
+    "main.0c656696.css.map": "/page_view/static/css/main.0c656696.css.map",
+    "main.42b10182.js.map": "/page_view/static/js/main.42b10182.js.map"
   },
   "entrypoints": [
-    "static/css/main.acc48b8d.css",
-    "static/js/main.bb639de1.js"
+    "static/css/main.0c656696.css",
+    "static/js/main.42b10182.js"
   ]
 }
