@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/page_view/static/css/main.0c656696.css",
+    "main.css": "/page_view/static/css/main.a3f7830a.css",
     "main.js": "/page_view/static/js/main.42b10182.js",
     "static/media/we-are-the-revolution.gif": "/page_view/static/media/we-are-the-revolution.36efe3e531655baa5106.gif",
     "static/media/banda.jpg": "/page_view/static/media/banda.2a68097099bba497811c.jpg",
@@ -19,11 +19,11 @@
     "static/media/instagram-500.svg": "/page_view/static/media/instagram-500.67d2bda302839b8f018291b35e481b63.svg",
     "static/media/x.svg": "/page_view/static/media/x.0ea395355f7ad1923a7bceb3ef48892f.svg",
     "index.html": "/page_view/index.html",
-    "main.0c656696.css.map": "/page_view/static/css/main.0c656696.css.map",
+    "main.a3f7830a.css.map": "/page_view/static/css/main.a3f7830a.css.map",
     "main.42b10182.js.map": "/page_view/static/js/main.42b10182.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c656696.css",
+    "static/css/main.a3f7830a.css",
     "static/js/main.42b10182.js"
   ]
 }
