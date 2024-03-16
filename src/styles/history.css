@@ -92,6 +92,7 @@
   .history-section div:first-child {
     display: block;
     text-align: center;
+    margin: 0 auto;
   }
 
   .container-history-text {
@@ -116,7 +117,7 @@
 @media screen and (max-width: 500px) {
 
   .history-section div:first-child {
-    width: auto;
+    width: 95%;
     padding: 0;
   }
 
